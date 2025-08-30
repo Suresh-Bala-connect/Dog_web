@@ -1,0 +1,588 @@
+.main_container{
+    width: 100%;
+    height: auto;
+    background-color:#ffffff ;
+}
+/* Header */
+.menu_content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: whitesmoke;
+    color: white;
+    padding: 15px;
+    justify-content: space-around;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.menu_items a{
+  font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.menu_logo{
+    width: 10%;
+    height: 90px;
+}
+.menu_logo img{
+      width: 134px;
+    height: 114px;
+}
+.menu_items{
+    width: 70%;
+    gap: 60px;
+}
+.menu_items >div p{
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer ;
+  color: black;
+}
+.menu_items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu_items :hover{
+    color: #FCAE03;
+}
+.home{
+    margin-left: 202px;
+}
+.contact{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    cursor: pointer ;
+    color: black;
+}
+.contact img{
+   width: 49px;
+    height: 42px;
+}
+.contact p{
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer ;
+}
+
+/* About Us */
+.about_us{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+.about_img{
+    width: 30%;
+}
+.about_img img{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+    width: 611px;
+    }
+.about_content{
+    width: 45%;
+    display: inline;
+    margin-left: 276px;
+}
+.about_head {
+  text-align: center;
+  border-bottom: 1px solid  #fbae02;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+.about_lines p{
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #7A7A7A;
+        
+}
+.about_lines h2{
+        font-size: 45px;
+}
+.about_head span {
+  background: #fbae02; 
+  padding: 0 10px;
+}
+.text {
+  font-family: sans-serif; 
+  font-size: 16px;
+  color: #3333339e;
+  font-weight: 300;
+}
+.fa-bone:before {
+    color: #FA524F;
+     margin-right: 18px;
+      line-height: 2.1em;
+}
+.text{
+    font-size: 16px;
+    color: #5B5B5B;
+    transition: color 0.3s;
+    font-weight: bolder;
+}
+button{
+    color: #ffffff;
+    background: #fa524f;
+    border-radius: 40px;
+    padding: 12px 30px 13px 28px;
+    font-size: 16px;
+    cursor: POINTER;
+    border: none;
+    margin-top: 54px;
+}
+.charile_three{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 40px;
+    margin-left: 77px;
+}
+.about_charile{
+    padding: 45px;
+}
+.about_charile h2{
+    font-size: 33px;
+}
+.icon{
+    color: #FBAE02;
+}
+.charile-para p,.ado_para p{
+    line-height: 1.5;
+    font-size: 18px;    
+    color: #54595F;
+}
+.spa-text{
+    font-size: 20px;
+}
+    /* <!-- Featured Pets --> */
+ .ado_head h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 341px;
+}
+.ado_head p {
+    text-align: center;
+    color: #f57c00;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 10px;
+    margin-left: 360px;
+}
+.pets{
+    width: 100%;
+}
+.sec_01{
+    width: 30%;
+    margin-left: 10px;
+     border-radius: 13px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     overflow: hidden;    
+}
+.sec_01 img{
+       width: 374px;
+    height: 348px;
+     border-radius: 13px;
+     transition: transform 0.3s ease;
+}
+.sec_01:hover img {
+  transform: scale(1.1);
+}
+.sec_01_para{
+    text-align: center;
+}
+.sec_01_para h2{
+    font-size: 21px;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    color: #313131;
+}
+.sec_01_para p{
+        color: #7b7a7a;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+.pets{
+    display: flex;
+    flex-wrap: wrap;
+   gap: 40px;
+   margin-top: 50px;
+}
+.sec_01_para button{
+    color: #ffffff;
+    background: #fa524f;
+    border-radius: 40px;
+    padding: 12px 30px 13px 28px;
+    font-size: 16px;
+    cursor: POINTER;
+    border: none;
+    margin-bottom: 15px;
+}
+/* Footer Styles */
+.site-footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 0 0;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+.footer-section h3 {
+    color: #f39c12;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f39c12;
+}
+
+.footer-links li, .contact-info li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.footer-links a, .contact-info li {
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a:hover {
+    color: #f39c12;
+}
+
+.footer-links i, .contact-info i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.newsletter-form button {
+    background: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: white;
+    background: #34495e;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+}
+
+.social-icons a:hover {
+    background: #f39c12;
+}
+
+.footer-bottom {
+    background: #1a252f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+.payment-methods {
+    margin-bottom: 15px;
+}
+
+.payment-methods i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #bdc3c7;
+}
+/* ==================== Mobile (up to 430px) ==================== */
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: black;
+}
+
+/* Default hide menu on mobile */
+@media (max-width: 430px) {
+  .menu_items {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    text-align: center;
+    background: whitesmoke;
+    padding: 15px 0;
+  }
+
+  .menu_items.show {
+    display: flex; /* shown when toggled */
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: 160px;
+  }
+
+  .contact {
+    display: none; /* hide phone block on small screens */
+  }
+  .about_us {
+    display: inline;
+    margin-top: 90px;
+    padding: 20px;
+}
+.about_content{
+    display: inline;
+}
+.ado_head h2,.ado_head p {
+    margin-left: 0;
+}
+.sec_01 {
+    width: 100%;
+}
+.sec_01 img{
+    padding: 10px;
+}
+.about_head {
+    font-size: 21px;
+    margin-left: 70px;
+}
+.about_lines h2{
+    margin-left: 90px;
+}
+.about_lines p{
+    margin-left: 90px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text{
+     /* margin-left: 90px; */
+    font-size: 20px;
+    font-weight: bold;
+}
+.about_bown{
+    margin-left: 136px;
+}
+ .fas {
+    font-weight: 900;
+    margin-top: 30px;
+}
+.about_charile h2 {
+    font-size: 42px;
+    margin-left: 60px;
+}
+.charile-para p,.ado_para p {
+    line-height: 1.5;
+    font-size: 24px;
+    color: #54595F;
+    margin-left: 55px;
+}
+.spa-text {
+    font-size: 28px;
+}
+}
+
+@media (min-width:431px) and (max-width:768px){
+     .menu_items{
+        display: flex;
+        align-items: center;
+        width: 70%;
+        gap: 19px;
+        flex-wrap: nowrap;
+    }
+    .home{
+        margin-left: 70px;
+    }
+    .contact img{
+        margin-left: -28px;
+    }
+    .contact p{
+        margin-left: -2px;
+    }
+    .about_content{
+        width: 100%;
+        display: inline;
+        margin-left: 0px;
+    }
+    .about_lines{
+        margin-left: 10px;
+        padding: 5px;
+    }
+    .about_lines h2,.about_charile h2 {
+         text-align: center;
+    }
+    .about_bown{
+         margin-left: 10px;
+         padding: 5px;
+         text-align: center;
+    }
+    .ado_head{
+        width: 100%;
+    }
+    .ado_head h2,.ado_head p{
+        margin-left: 0px;
+    }
+    .sec_01{
+        width: 100%;
+    }
+    .sec_01 img {
+    width: 100%;
+    height: 409px;}
+}
+@media (min-width:770px) and (max-width:1024px){
+    .about_us{
+        margin-top: 90px;
+        padding: 20px;
+    }
+    .about_img img {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+    width: 555px;
+    padding: 20px;
+    margin-left: 196px;
+}
+.home {
+    margin-left: 131px;
+}
+.about_lines p {
+    font-size: 22px;}
+
+.about_charile h2{
+    text-align: center;
+}
+.spa-text {
+    font-size: 25px;
+}
+.charile-para p, .ado_para p {
+    line-height: 1.5;
+    font-size: 24px;
+    color: #54595F;
+}
+.ado_head h2,.ado_head p{
+    margin-left: 203px;
+}
+.ado_head p{
+    font-size: 26px;
+}
+.sec_01 img {
+    width: 416px;
+    height: 348px;
+    border-radius: 13px;
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+.sec_01{
+    width: 41%;
+}
+.sec_01_para h2 {
+    font-size: 28px;}
+    .sec_01_para p {
+    
+    font-size: 20px;
+}
+}
+@media (min-width:1440px) and (max-width:2559px){
+    .menu_items a, .contact p{
+    font-size: 23px;
+        }
+    .about_lines p,.text{
+        font-size: 26px;
+    }
+    button{
+        font-size: 26px;
+    }
+    .about_charile h2 {
+    font-size: 50px;
+    text-align: center;
+        }
+    .spa-text {
+    font-size: 33px;
+}
+.charile-para p, .ado_para p {
+    line-height: 1.5;
+    font-size: 30px;
+    color: #54595F;
+}
+.sec_01_para h2 {
+    font-size: 30px;}
+    .sec_01_para p {
+    color: #7b7a7a;
+    font-weight: 400;
+    line-height: 1.8rem;
+    font-size: 26px;
+}
+.footer-section h3 {
+    
+    font-size: 26px;}
+    .footer-links a, .contact-info li {
+   
+    font-size: 23px;
+}
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet"  href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="contact-container">
+         <!-- Menus -->
+        <div class="meanus">
+            <div class="menu_content">
+                <!-- Meanus -->
+                <div class="menu_logo">
+                    <!-- <img src="img/paw.png" alt="paw"> -->
+                     <img src="img/logo.4.png">
+                </div>
+                <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+                <div class="menu_items">
+                    <div class="home">
+                    
+                      <a href="index.html">Home</a>
+                </div>
+                <div class="about">
+                    <!-- <p>About</p> -->
+                    <a href="about.html">About</a>
+                </div>
+                <div class="puppies">
+                    <!-- <p>Puppies</p> -->
+                    <a href="puppies.html">Puppies</a>
+                </div>
+                <div class="service">
+                    <!-- <p>Service</p> -->
+                     <a href="service.html">Service</a>
+                </div>
+                <div clas="contact">
+                    <!-- <p>Contact</p> -->
+                    <a href="contact.html">Contact</a>
+                </div>
+                </div>
+                <div class="contact">
+                    <img src="img/contact.png" alt="phone">
+                    <p>09-87654321</p>
+                </div>
+                
+            </div>
+        </div>
+
+         <!-- Banner_01 -->
+        <div class="puppie_banner_01">
+            <div class="puppie_para_01">
+                <h2>Contact</h2>
+                <p>Need Assistance or Have a Question?</p>
+            </div>
+         </div>
+
+          <!-- Contact -->
+           <div class="contact-page">
+            <div class="contact-head">
+                <h2>Contact Us</h2>
+                <P>Any Question or remarks? Just write us a message</P>
+            </div>
+            <div class="name-email">
+                <div class="name">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="email">
+                    <label>Email:</label>
+                    <input type="text" placeholder="Enter Your E-Mail">
+                </div>
+            </div>
+            <div class="submit-button">
+                <button>Submit</button>
+            </div>
+
+           </div>
+        
+          <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Quick Links Section -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-box-open"></i> Products</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-bag"></i> My Orders</a></li>
+                    <li><a href="#"><i class="fas fa-star"></i> Why Choose Us</a></li>
+                    <li><a href="#"><i class="fas fa-address-book"></i> Contact Us</a></li>
+                    <li><a href="#"><i class="fas fa-lock"></i> Privacy Policy</a></li>
+                    <li><a href="#"><i class="fas fa-exchange-alt"></i> Return Policy</a></li>
+                    <li><a href="#"><i class="fas fa-credit-card"></i> Payment Terms</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Information Section -->
+            <div class="footer-section">
+                <h3>Get In Touch</h3>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-phone-volume"></i>
+                        <span>+91 98765 43210</span>
+                    </li>
+                    <li>
+                        <i class="fab fa-whatsapp"></i>
+                        <span>+91 98765 43210</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>contact@example.com</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Temple Street,<br>Religious Town, TN 600001</span>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Newsletter Section -->
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get updates on new products and offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i> Subscribe</button>
+                </form>
+                
+                <!-- Social Media Links -->
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Copyright Section -->
+        <div class="footer-bottom">
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fab fa-cc-amazon-pay"></i>
+                <i class="fas fa-money-bill-wave"></i>
+            </div>
+            <p>&copy; 2023 YourPoojaStore.com. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    </div>
+     <script>
+        function toggleMenu() {
+        const menu = document.querySelector('.menu_items');
+        menu.classList.toggle('show');
+        }
+</script>
+</body>
+</html>

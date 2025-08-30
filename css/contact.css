@@ -1,0 +1,523 @@
+main_container{
+    width: 100%;
+    height: auto;
+    background-color:#ffffff ;
+}
+/* Header */
+.menu_content{
+  display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: whitesmoke;
+    color: white;
+    padding: 15px;
+    justify-content: space-around;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.menu_items a{
+  font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.menu_logo{
+    width: 10%;
+    height: 90px;
+}
+.menu_logo img{
+      width: 134px;
+    height: 114px;
+}
+.menu_items{
+    width: 70%;
+    gap: 60px;
+}
+.menu_items >div p{
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer ;
+  color: black;
+}
+.menu_items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu_items :hover{
+    color: #FCAE03;
+}
+.home{
+    margin-left: 202px;
+}
+.contact{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    cursor: pointer ;
+    color: black;
+}
+.contact img{
+   width: 49px;
+    height: 42px;
+}
+.contact p{
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer ;
+}
+/* Banner_01 */
+.puppie_banner_01{
+     background: url('../img/about.jpg') no-repeat ;
+     background-size: cover;
+      background-repeat: no-repeat;
+     width: 100%;
+     color: black;
+     height: 635px;
+     margin-top: 150px;
+    height: 395px;
+}
+
+
+.puppie_para_01{
+   margin-top: 30px;
+    width: 50%;
+    position: absolute;
+    margin-left: 35px;
+}
+.puppie_para_01 h2{
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.2;
+    box-sizing: border-box; 
+        color: whitesmoke;
+    font-family: poppins, sans-serif;   
+}
+.puppie_para_01 p{
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding-top: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8em;
+        color: whitesmoke;
+}
+.puppie_para_01 button{
+    color: #ffffff;
+    background: #fa524f;
+    border-radius: 40px;
+    padding: 12px 49px 13px 28px;
+    margin-top: 29px;
+    font-size: 16px;
+    cursor: POINTER;
+    border: none;
+}
+/* contact */
+.contact-head{
+    font-size: 30px;
+}
+.contact-page{
+    text-align: center;
+}
+.name-email{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    margin-left: 263px;
+    margin-top: 54px;
+}
+.name-email label{
+    font-size: 20px;
+    margin-right: 10px; 
+}
+
+.name-email input{
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #6b932d;
+}
+.submit-button{
+    width: 420px;
+    height: 26px;
+    border-radius: 50px;
+    margin-top: 55px;
+    margin-left: 428px;
+    border-bottom: 2px solid #6b932d;
+}
+.submit-button button{
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: transparent; 
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 0 0;
+    margin-top: 60px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+.footer-section h3 {
+    color: #f39c12;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f39c12;
+}
+
+.footer-links li, .contact-info li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.footer-links a, .contact-info li {
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a:hover {
+    color: #f39c12;
+}
+
+.footer-links i, .contact-info i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.newsletter-form button {
+    background: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: white;
+    background: #34495e;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+}
+
+.social-icons a:hover {
+    background: #f39c12;
+}
+
+.footer-bottom {
+    background: #1a252f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+.payment-methods {
+    margin-bottom: 15px;
+}
+
+.payment-methods i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #bdc3c7;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        flex: 100%;
+    }
+    
+    .newsletter-form {
+        flex-direction: column;
+    }
+    
+    .newsletter-form input,
+    .newsletter-form button {
+        border-radius: 4px;
+    }
+    
+    .newsletter-form button {
+        margin-top: 10px;
+    }
+}
+
+/* =============================
+   HAMBURGER MENU (320px – 425px)
+   ============================= */
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: black;
+}
+
+/* Default hide menu on mobile */
+@media (max-width: 424px) and (min-width: 320px) {
+  .menu_items {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    text-align: center;
+    background: whitesmoke;
+    padding: 15px 0;
+  }
+
+  .menu_items.show {
+    display: flex; 
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: 229px;
+    margin-top: -58px;
+  }
+
+  .contact {
+    display: none; 
+  }
+}
+/* =============================
+   BASE STYLES (Default Desktop)
+   ============================= */
+.menu_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: whitesmoke;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.menu_logo {
+  width: auto;
+  height: auto;
+}
+
+.menu_logo img {
+  width: 120px;
+  height: auto;
+}
+
+.menu_items {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* =============================
+   GLOBAL FIXES
+   ============================= */
+.home {
+  margin-left: 0; /* remove fixed spacing */
+}
+
+.name-email {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto;
+}
+
+.name-email input {
+  width: 100%;
+  max-width: 280px;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  margin: 40px auto;
+}
+
+.submit-button button {
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #6b932d;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+
+.submit-button button:hover {
+  background: #4c681f;
+}
+
+/* =============================
+   HAMBURGER (MOBILE)
+   ============================= */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: black;
+}
+
+/* Mobile (320px–425px) */
+@media (max-width: 425px) {
+  .menu_content {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .menu_items {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background: whitesmoke;
+    padding: 15px 0;
+  }
+
+  .menu_items.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: auto;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .puppie_para_01 {
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+  }
+
+  .puppie_para_01 h2 {
+    font-size: 32px;
+  }
+
+  .name-email {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+    align-items: center;
+  }
+
+  .submit-button {
+    width: 100%;
+  }
+}
+
+/* Tablets (426px–768px) */
+@media (max-width: 768px) and (min-width: 426px) {
+  .menu_items {
+    gap: 20px;
+  }
+
+  .menu_logo img {
+    width: 100px;
+  }
+
+  .contact p {
+    font-size: 13px;
+  }
+
+  .puppie_para_01 h2 {
+    font-size: 40px;
+  }
+}
+
+/* Small laptops (769px–1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .menu_items {
+    gap: 30px;
+  }
+
+  .menu_logo img {
+    width: 110px;
+  }
+}
+
+/* Large screens (default) */
+@media (min-width: 1025px) {
+  .menu_items {
+    gap: 50px;
+  }
+}

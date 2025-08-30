@@ -1,0 +1,352 @@
+.main_container{
+    width: 100%;
+    height: auto;
+    background-color:#ffffff ;
+}
+/* Header */
+.menu_content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: whitesmoke;
+    color: white;
+    padding: 15px;
+    justify-content: space-around;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.menu_items a{
+  font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.menu_logo{
+    width: 10%;
+    height: 90px;
+}
+.menu_logo img{
+      width: 134px;
+    height: 114px;
+}
+.menu_items{
+    width: 70%;
+    gap: 60px;
+}
+.menu_items >div p{
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer ;
+  color: black;
+}
+.menu_items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu_items :hover{
+    color: #FCAE03;
+}
+.home{
+    margin-left: 202px;
+}
+.contact{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    cursor: pointer ;
+    color: black;
+}
+.contact img{
+   width: 49px;
+    height: 42px;
+}
+.contact p{
+  font-family: 'Arial', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer ;
+}
+ /* Banner_01 */
+.puppie_banner_01{
+     background: url('../img/about.jpg') no-repeat ;
+     background-size: cover;
+      background-repeat: no-repeat;
+     width: 100%;
+     color: black;
+     height: 635px;
+     margin-top: 150px;
+    height: 395px;
+}
+
+
+.puppie_para_01{
+   margin-top: 30px;
+    width: 50%;
+    position: absolute;
+    margin-left: 35px;
+}
+.puppie_para_01 h2{
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.2;
+    box-sizing: border-box; 
+        color: whitesmoke;
+    font-family: poppins, sans-serif;   
+}
+.puppie_para_01 p{
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding-top: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8em;
+        color: whitesmoke;
+}
+.puppie_para_01 button{
+    color: #ffffff;
+    background: #fa524f;
+    border-radius: 40px;
+    padding: 12px 49px 13px 28px;
+    margin-top: 29px;
+    font-size: 16px;
+    cursor: POINTER;
+    border: none;
+}
+.services{
+    width: 100%;
+}
+.ser_fir_03{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.training{
+    width: 25%;
+    text-align: center;
+    margin-top: 90px;
+    line-height: 1.8rem;
+    border: 2px solid #7A7A7A;
+    margin-left: 53px;
+    height: 300px;
+    border-radius: 10px;
+    /* border-color: #fa524f; */
+}
+.training i{
+    background-color: #f30a06;;
+    border-radius: 100px;
+    width: 44px;
+    height: 43px;
+    color: white;
+    align-content: center;
+    margin-top: 49px;
+}
+.training:hover{
+    border-color: #f30a06;
+    cursor: pointer;
+}
+.tra-img{
+    margin-bottom: 40px;
+    margin-top: -34px;
+}
+.tra-img img{
+    width: 65px;
+    height: 62px;
+}
+.tra-head{
+    color: black;
+}
+.tra-para p{
+    color: #7A7A7A;
+}
+ /* <!-- Banner_03 --> */
+   .banner_03{
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+   }
+   .banner_03 img{
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 370px;
+   }
+   .ado_head{
+    margin-top: 70px;
+   }
+   .ado_head p{
+    text-align: center;
+    color: #f57c00;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-underline-offset: 10px
+ }
+ .ado_head h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+ }
+ .ado_head button{
+    color: #ffffff;
+    background: #fa524f;
+    border-radius: 40px;
+    padding: 12px 49px 13px 28px;
+   
+    font-size: 16px;
+    cursor: POINTER;
+    border: none;
+    position: relative;
+    top: 317px;
+    left: 702px;
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 40px 0 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+.footer-section h3 {
+    color: #f39c12;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f39c12;
+}
+
+.footer-links li, .contact-info li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.footer-links a, .contact-info li {
+    color: #bdc3c7;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a:hover {
+    color: #f39c12;
+}
+
+.footer-links i, .contact-info i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.newsletter-form button {
+    background: #f39c12;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: white;
+    background: #34495e;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+}
+
+.social-icons a:hover {
+    background: #f39c12;
+}
+
+.footer-bottom {
+    background: #1a252f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+.payment-methods {
+    margin-bottom: 15px;
+}
+
+.payment-methods i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #bdc3c7;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        flex: 100%;
+    }
+    
+    .newsletter-form {
+        flex-direction: column;
+    }
+    
+    .newsletter-form input,
+    .newsletter-form button {
+        border-radius: 4px;
+    }
+    
+    .newsletter-form button {
+        margin-top: 10px;
+    }
+}
